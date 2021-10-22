@@ -9,9 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Examen2">
         <activity
-            android:name=".LoginActivity"
-            android:label="Login"
+            android:name=".HomeActivity"
             android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="Login" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
