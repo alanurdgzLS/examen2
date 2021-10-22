@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074653542476",
+    "project_id": "fir-tutorial-f16d2",
+    "storage_bucket": "fir-tutorial-f16d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074653542476:android:601fa840935eb58f6d5ce9",
+        "android_client_info": {
+          "package_name": "com.example.examen2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074653542476-67bj1vo8nfo1p0nlo23turt4rgo63nef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArQDioL_yE6ckoAjiTdxhB8YBOVLhrAoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074653542476-67bj1vo8nfo1p0nlo23turt4rgo63nef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
