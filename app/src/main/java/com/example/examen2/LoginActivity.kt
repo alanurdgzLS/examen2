@@ -51,6 +51,19 @@ class LoginActivity : AppCompatActivity() {
             }
         }
 
+        btnLogIn.setOnClickListener {
+            if (txtEmail.text.isNotEmpty() && txtPassword.text.isNotEmpty())
+            {
+                FirebaseAuth.getInstance().signInWithEmailAndPassword(txtEmail.text.toString(),
+                    txtPassword.text.toString()).addOnCompleteListener {
+                    if(it.isSuccessful){
+                        showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
+                    }else{
+                        showAlert()
+                    }
+                }
+            }
+        }
     }
 
     private fun showAlert(){
